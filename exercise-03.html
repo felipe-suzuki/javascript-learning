@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JavaScript</title>
+		<script>
+
+			var n1 = prompt('digite o valor 1')
+			var ope = prompt('digite 1 para soma ou 2 para subtração')
+			var n2 = prompt('digite o valor 2')
+
+			function calc(n1,n2,ope) {
+
+				n1 = parseFloat(n1)
+				n2 = parseFloat(n2)
+
+				var resultado = 0
+
+				if (ope = 1) {
+					resultado = n1 + n2
+				}
+			
+				else {
+					resultado = n1 - n2
+				}
+
+				return resultado
+			}
+
+			document.write('o resultado é: ' + calc(n1,n2,ope))	
+
+		</script>
+
+	</head>
+	
+	<body>
+
+	</body>
+</html>
